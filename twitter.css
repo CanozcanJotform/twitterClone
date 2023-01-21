@@ -1,0 +1,11 @@
+body {
+    background-color: #000 ;
+}
+.left-section-general {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    max-width: 1680px;
+    width: 100%;
+}
