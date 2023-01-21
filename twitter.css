@@ -9,3 +9,13 @@ main {
     max-width: 1680px;
     width: 100%;
 }
+.flex {
+    display: flex;
+}
+a {
+    color: #fff ;
+    text-decoration: none;
+}
+.left-section-general {
+    max-width: 275px;
+}
