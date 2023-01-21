@@ -1,9 +1,16 @@
 body {
     background-color: #000 ;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: SF Compact Display;
+    color: #fff;
 }
 .left-section-general {
     display: flex;
     flex-direction: column;
+    max-width: 275px;
+    margin-left: 108px;
 }
 main {
     max-width: 1680px;
@@ -11,11 +18,77 @@ main {
 }
 .flex {
     display: flex;
+    align-items: center;
 }
 a {
     color: #fff ;
     text-decoration: none;
+    cursor: pointer;
 }
-.left-section-general {
-    max-width: 275px;
+.tweet-button {
+    background-color: #1DA1F2;
+    color: #fff;
+    border-radius: 30px;
+    padding: 16px 86px;
+}
+.gap {
+    gap: 20px;
+}
+.bird-wrapper {
+    margin-top: 11px;
+    margin-bottom: 42px;
+}
+.icon {
+    cursor: pointer;
+    width: 30px;
+}
+button {
+    cursor: pointer;
+}
+.home-text {
+    color: #1DA1F2;
+}
+.tweetButtonWrapper {
+    margin-top: 30px;
+}
+.davideTextWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+.biscuttu {
+    color: #8899A6;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.davideHeader {
+    color: #fff;
+   
+}
+.davideHeader > h5 {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.bottomPartWrapper {
+    gap: 12px;
+    margin-top: 120px;
+}
+.dotsWrapper {
+    margin-left: auto;
+    align-self: flex-end;
+}
+.pp {
+    align-self: flex-end;
+}
+.pp > img {
+    width: 39px;
+    cursor: pointer;
+}
+.flex2 {
+    display: flex;
+}
+.general-wrapper {
+    justify-content: space-between;
 }
