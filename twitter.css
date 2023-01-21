@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 275px;
-    margin-left: 108px;
 }
 main {
     max-width: 1680px;
@@ -90,5 +89,37 @@ button {
     display: flex;
 }
 .general-wrapper {
+    justify-content: space-around;
+}
+.home {
+    font-size: 19px;
+    font-weight: bold;
+}
+.mid-section-general {
+    flex-direction: column;
+    max-width: 598px;
+}
+.star {
+    width: 24px;
+}
+.happening-header {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8899A6;
+}
+.happening-wrapper {
+    gap: 12px;
+}
+.home-section-wrapper {
+    align-items: center;
     justify-content: space-between;
+}
+.mid-section-wrapper {
+    margin-top: 11px;
+}
+.assets-tweet-wrapper {
+    justify-content: space-between;
+}
+.assets-wrapper {
+  gap: 15px;
 }
