@@ -1,5 +1,5 @@
 body {
-    background-color: #000 ;
+    background-color: #17202A ;
     font-size: 19px;
     font-weight: bold;
     margin: 0px;
@@ -246,4 +246,67 @@ button {
 }
 .search-wrapper {
     margin-top: 10px;
+}
+.info-p {
+    font-size: 14px;
+    color: #8899A6;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.what-h2 {
+    font-size: 20px;
+    margin-left: 16px;
+}
+.right-section-general {
+    flex-direction: column;
+}
+.covidPart {
+    gap: 4px;
+}
+.trends {
+    max-width: 235px;
+    width: 100%;
+}
+.trends > p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+.covid-trend {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8899A6;
+}
+.covid-p {
+    color: #1DA1F2;
+}
+.texts-wrapper {
+    flex-direction: column;
+}
+.covidImg {
+    align-self: center;
+}
+.covid-texts {
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.covid-trend > p {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.whatsWrapper {
+    border: 1px solid #3A444C ;
+    margin-top: 26px;
+    border-radius: 2px;
+    background-color: #3A444C ;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}   
+.right-section-general {
+    max-width: 350px;
+    width: 100%;
+}
+.worldInformations {
+    border: 1px solid #3A444C ;
 }
