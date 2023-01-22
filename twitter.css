@@ -70,6 +70,12 @@ button {
     margin-bottom: 0px;
     font-size: 16px;
 }
+.left-section-wrapper {
+    margin-right: auto;
+    margin-left: 108px;
+    margin-top: 11px;
+    max-width: 275px;
+}}
 .bottomPartWrapper {
     gap: 12px;
     margin-top: 120px;
@@ -110,16 +116,36 @@ button {
 .happening-wrapper {
     gap: 12px;
 }
+.pp-wrapper {
+    margin-left: 15px;
+}
 .home-section-wrapper {
     align-items: center;
     justify-content: space-between;
+    margin-top: 11px;
 }
 .mid-section-wrapper {
-    margin-top: 11px;
+    margin-right: auto;
+    max-width: 598px;
+    width: 100%;
+    border: 1px solid #8899A6;
+    border-top: none;
 }
 .assets-tweet-wrapper {
     justify-content: space-between;
 }
 .assets-wrapper {
   gap: 15px;
+  margin-left: 73px;
+  margin-bottom: 17px;
+}
+.happening-assets-wrapper {
+    border: 1px solid #8899A6;
+}
+.mid-tweet-button-wrapper {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.star-wrapper {
+    margin-right: 14px;
 }
