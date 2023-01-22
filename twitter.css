@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-family: SF Compact Display;
     color: #fff;
+    border-collapse: none;
 }
 .left-section-general {
     display: flex;
@@ -35,7 +36,6 @@ a {
 }
 .bird-wrapper {
     margin-top: 11px;
-    margin-bottom: 42px;
 }
 .icon {
     cursor: pointer;
@@ -105,6 +105,7 @@ button {
 .mid-section-general {
     flex-direction: column;
     max-width: 598px;
+    border: 1px solid #3A444C;
 }
 .star {
     width: 24px;
@@ -123,13 +124,11 @@ button {
 .home-section-wrapper {
     align-items: center;
     justify-content: space-between;
-    margin-top: 11px;
 }
 .mid-section-wrapper {
     margin-right: auto;
     max-width: 598px;
     width: 100%;
-    border: 1px solid #8899A6;
     border-top: none;
 }
 .assets-tweet-wrapper {
@@ -141,7 +140,7 @@ button {
   margin-bottom: 17px;
 }
 .happening-assets-wrapper {
-    border: 1px solid #8899A6;
+    border: 1px solid #3A444C;
 }
 .mid-tweet-button-wrapper {
     margin-right: 15px;
@@ -152,4 +151,99 @@ button {
 }
 .home2-wrapper {
     margin-left: 16px;
+}
+.devonLaneWrapper {
+    margin-left: 16px;
+    margin-top: 9px;
+}
+.otherPartWrapper {
+    flex-direction: column;
+}
+.otherHeader > h6 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.otherHeader > p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #8899A6;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.otherHeader {
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 9px;
+    gap: 4px;
+}
+.enough-p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 4px;
+
+}
+.enoughWrapper {
+    margin-left: 10px;
+}
+.mysterio {
+    border: 1px solid #3A444C ;
+    border-radius: 20px;
+}
+.mysterioWrapper {
+    margin-top: 10px;
+}
+.tweetImg {
+    width: 18px;
+    height: 18px;
+}
+.gapTweet {
+    gap: 10px;
+}
+.tweet-p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8899A6;
+}
+.interactionsWrapper {
+    align-items: center;
+    gap: 84px;
+}
+.likePart > p {
+    color: #F4245E;
+}
+.threadPart > p {
+    color: #1DA1F2;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tweet-part {
+    border: 1px solid  #3A444C;
+}
+.mid-tweet-button {
+    background-color: #1DA1F2;
+    padding: 12px 30px;
+    border-radius: 12px;
+    color: #fff;
+}
+.search-input {
+    background-color: #283340;
+    color: #8899A6;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: #283340;
+    width: 348px;
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+}
+.search-wrapper {
+    margin-top: 10px;
 }
