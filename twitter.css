@@ -54,6 +54,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 4px;
+    margin-left: 10px;
 }
 .biscuttu {
     color: #8899A6;
@@ -148,4 +149,7 @@ button {
 }
 .star-wrapper {
     margin-right: 14px;
+}
+.home2-wrapper {
+    margin-left: 16px;
 }
