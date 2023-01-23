@@ -15,6 +15,7 @@ body {
 main {
     max-width: 1680px;
     width: 100%;
+    margin: 0 auto;
 }
 .flex {
     display: flex;
@@ -29,7 +30,7 @@ a {
     background-color: #1DA1F2;
     color: #fff;
     border-radius: 30px;
-    padding: 16px 86px;
+    padding: 12px 92px;
 }
 .gap {
     gap: 20px;
@@ -151,6 +152,7 @@ button {
 }
 .home2-wrapper {
     margin-left: 16px;
+    margin-top: 3px;
 }
 .devonLaneWrapper {
     margin-left: 16px;
@@ -239,10 +241,10 @@ button {
     font-size: 16px;
     font-weight: 400;
     border-color: #283340;
-    width: 348px;
     max-width: 100%;
-    padding: 12px;
+    padding: 12px 82px;
     border-radius: 20px;
+    border: none;
 }
 .search-wrapper {
     margin-top: 10px;
@@ -280,6 +282,7 @@ button {
 }
 .covid-p {
     color: #1DA1F2;
+    margin-bottom: 10px;
 }
 .texts-wrapper {
     flex-direction: column;
@@ -290,16 +293,16 @@ button {
 .covid-texts {
     margin-bottom: 6px;
     margin-top: 10px;
+    gap: 4px;
 }
 .covid-trend > p {
     margin-top: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .whatsWrapper {
     border: 1px solid #3A444C ;
-    margin-top: 26px;
+    margin-top: 15px;
     border-radius: 2px;
-    background-color: #3A444C ;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }   
@@ -307,6 +310,24 @@ button {
     max-width: 350px;
     width: 100%;
 }
-.worldInformations {
+.seperate-wrapper {
     border: 1px solid #3A444C ;
+}
+.seperate1 {
+    margin-left: 15px;
+}
+.covidImg {
+    margin-right: 14px;
+}
+.show-h2 {
+    font-size: 15px;
+    color: #1DA1F2;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+.showMoreWrapper {
+    border: 1px solid #3A444C ;
+    border-radius: 2px;
 }
